@@ -1,7 +1,7 @@
 # local-k8s-setup
 Utility scripts I use to setup a local Kubernetes cluster by using Kind and Podman with a local registry and the Nginx ingress controller deployed in the cluster.
 
-The nginx ingress controller is a modified version of the YAML you can find [link](https://kind.sigs.k8s.io/docs/user/ingress/#ingress-nginx): it exposes port 8080 for http and 8443 for https since it runs on unprivileged Podman and cannot bind to 80 and 443.
+The nginx ingress controller is a modified version of the YAML you can find [here](https://kind.sigs.k8s.io/docs/user/ingress/#ingress-nginx): it exposes port 8080 for http and 8443 for https since it runs on unprivileged Podman and cannot bind to 80 and 443.
 
 ## Dependencies
 
