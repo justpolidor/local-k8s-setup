@@ -1,9 +1,6 @@
 #!/bin/sh
 set -o errexit
 
-#!/bin/sh
-set -o errexit
-
 inject_local_registry() {
   podman machine ssh "cat << EOF | sudo tee -a /etc/containers/registries.conf
 [[registry]]
