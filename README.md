@@ -16,11 +16,10 @@ Tested on MacOS Ventura 13.4.1, Podman 4.5.1, kind 0.20.0
 ## Usage
 
 1. Make sure the dependencies are installed on your system.
-2. Execute the script using the following command:
+2. chmod the script using the following command:
 
 ```bash
 chmod +x ./setup-kind-with-registry.sh
-./setup-kind-with-registry.sh
 ```
 
 then you can use the Makefile to bring up the environment
